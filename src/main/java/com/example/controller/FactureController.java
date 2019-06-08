@@ -24,7 +24,7 @@ public class FactureController {
 	private FactureService factureService;
 	
 	@GetMapping
-	public List<Facture> getDocuments(){
+	public List<Facture> getFactures(){
 		return factureService.findAll();
 	}
 	
